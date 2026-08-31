@@ -124,6 +124,7 @@ require("lazy").setup({
         -- Languages
         pylsp = {},
         rust_analyzer = {},
+        zls = {},
         astro = {},
         lua_ls = {
           settings = {
@@ -208,7 +209,7 @@ require("lazy").setup({
     build = ":TSUpdate",
     config = function()
       require('nvim-treesitter').install {
-        "javascript", "astro", "typescript", "dockerfile", "bash", "go", "json", "lua", "yaml", "ocaml", "fsharp", "python", "rust"
+        "javascript", "astro", "typescript", "dockerfile", "bash", "go", "json", "lua", "yaml", "ocaml", "fsharp", "python", "rust", "zig"
       }
     end
   },
