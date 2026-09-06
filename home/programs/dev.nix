@@ -11,6 +11,7 @@
     pnpm
     tree-sitter
     yarn
+    zig
   ];
 
   programs.git = {
