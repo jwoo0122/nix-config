@@ -10,7 +10,7 @@
       else pkgs.ghostty;
 
     settings = {
-      theme = "GitHub Dark Default";
+      theme = "Rose Pine";
 
       font-family = [
         "Hack"
